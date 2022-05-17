@@ -15,7 +15,7 @@ const getUser = function() {
         showUserData.map(userData => {
             container += `
     
-                    <div class="col-lg-4 pb-5 mb-5">
+                    <div class="col-md-4 mb-3">
                     <div class="div_card card_frame text-center">
                         <div class="card m-4 bg-light">
                                 <div class="d-flex justify-content-center border-bottom">
