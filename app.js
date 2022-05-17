@@ -23,9 +23,10 @@ const getUser = function() {
                                 </div>
                             
                             <div class="card-body">
+                            
                                 <h4>Name: ${userData.name.first}<br></h4>
-                                <h4>Surname: ${userData.name.lastname}</h4>
                                 <h4 class="card-text">Age: ${userData.dob.age}</h4>
+                                <h4 class="card-text"> Gender: ${userData.gender}</h4>
                                 <h4 class="card-text">Email: ${userData.email}</h4>
                                 <h4 class="card-text">Location: ${userData.location.country}</h4>
                             </div>
